@@ -1,11 +1,11 @@
 # <img src="public/icons/icon_48.png" width="45" align="left"> Links Extension3
 
-My Chrome Extension
+This is basic chrome extension to open links in new tab. It shows links related to current open link.
 
 ## Features
 
-- Feature 1
-- Feature 2
+- App can cache links for offline use
+- (Untested) Auto-fetch links every hour
 
 ## Install
 
