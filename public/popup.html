@@ -7,7 +7,12 @@
   </head>
   <body>
     <div class="app">
-      <p class="counter-label">Counter</p>
+      <p>Your current url</p>
+      <h2 id="domain"></h2>
+      <!-- <textarea name="" id="related-urls" cols="30" rows="10"></textarea> -->
+      <span>Related urls:</span>
+      <div id="links-container"></div>
+      <!-- <p class="counter-label">Counter</p>
       <div id="counter" class="counter"></div>
       <div class="button-container">
         <button id="decrementBtn" class="button">-</button>
@@ -17,7 +22,9 @@
       <hr class="divider" />
 
       <p class="title">Chrome Extension is Ready!</p>
-      <p class="subtitle">Start by updating <code>popup.html</code></p>
+      <p class="subtitle">Start by updating <code>popup.html</code></p> -->
+      <button class='button' id='update-links'>Update links</button>
+      <span id='downloadedAt'></span>
     </div>
 
     <script src="popup.js"></script>
